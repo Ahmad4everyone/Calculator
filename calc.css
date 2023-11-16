@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    height: 100vh;
+    display: contents;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    position: relative;
+    width: 300px;
+    border-radius: 15px;
+    padding: 10px 20px 20px;
+    background-color: lightcoral;
+    box-shadow: 0 5px 15px;
+}
+#ahmad{
+    width: 260px;
+    height: 100px;
+    border-radius: 5px; 
+    margin-bottom: 30px;  
+    text-align: right;
+    outline: none;
+    border: none;
+    font-size: 30px;
+    color: brown;
+}
+.button{
+    display: grid;
+    grid-gap:08px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.button button{
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    background-color: beige;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.button button:active{
+    transform: scale(0.90);
+}
+.ayomi{
+    color: red;
+}
+
+@media (max-width:768px){
+    .container{
+        position: relative;
+        width: 300px;
+        border-radius: 15px;
+        /* padding: 10px 20px 20px; */
+        background-color: grey;
+        box-shadow: 0 5px 15px;
+    
+    }
+
+    .button{
+        display: grid;
+        grid-gap:08px;
+        grid-template-columns: repeat(4, 3fr);
+    
+    }
+}
+
