@@ -1,10 +1,10 @@
-
+var ola = document.getElementById("ahmad")
 
 function answer(x){
-    document.getElementById("ahmad").value += x
+    ola.value += x
 
 }
 
 function Result(){
-    document.getElementById("ahmad").value = eval(document.getElementById("ahmad").value)
+    document.getElementById("ahmad").value = eval(ola.value)
 }

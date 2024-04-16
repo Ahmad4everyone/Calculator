@@ -59,6 +59,7 @@ body{
         /* padding: 10px 20px 20px; */
         background-color: grey;
         box-shadow: 0 5px 15px;
+        overflow-x: hidden;
     
     }
 
@@ -67,6 +68,39 @@ body{
         grid-gap:08px;
         grid-template-columns: repeat(4, 3fr);
     
+    }
+}
+@media (max-width :450px){
+    .container{
+        position: relative;
+        width: 220px;
+        border-radius: 8px;
+        background-color: darkcyan;
+        box-shadow: 0 5px 15px;
+        overflow-x: auto;
+        z-index: 11;
+    
+    }
+    #ahmad{
+        width: 180px;
+        height: 50px;
+        border-radius: 5px; 
+        margin-bottom: 30px;  
+        text-align: right;
+        outline: none;
+        border: none;
+        font-size: 30px;
+        color: slateblue;
+    }
+
+    .button{
+        display: grid;
+        grid-gap:05px;
+        grid-template-columns: repeat(4, 3fr);
+    
+    }
+    .ayomi{
+        color: firebrick;
     }
 }
 
