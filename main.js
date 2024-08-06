@@ -6,5 +6,5 @@ function answer(x){
 }
 
 function Result(){
-    document.getElementById("ahmad").value = eval(ola.value)
+    ola.value = eval(ola.value)
 }

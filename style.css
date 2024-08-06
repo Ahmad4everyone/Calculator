@@ -17,6 +17,7 @@ body{
     padding: 10px 20px 20px;
     background-color: lightcoral;
     box-shadow: 0 5px 15px;
+    margin: 0 auto;
 }
 #ahmad{
     width: 260px;
@@ -27,17 +28,17 @@ body{
     outline: none;
     border: none;
     font-size: 30px;
-    color: brown;
+    color: black;
 }
 .button{
     display: grid;
-    grid-gap:08px;
+    grid-gap:12px;
     grid-template-columns: repeat(4, 1fr);
 }
 
 .button button{
     padding: 5px;
-    border-radius: 10px;
+    border-radius: 8px;
     border: none;
     background-color: beige;
     font-size: 25px;
